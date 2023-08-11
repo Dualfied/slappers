@@ -1519,13 +1519,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "Destroy GUI",
-	Callback = function()
-      		OrionLib:Destroy()
-  	end    
-})
-
 Tab2:AddButton({
 	Name = "View Testing Server (Good for glove leaking)",
 	Callback = function()
